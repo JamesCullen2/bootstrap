@@ -1,0 +1,356 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.style {
+	font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1200px;
+	overflow: auto;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: white;
+}
+
+.header-buttons a:link, .header-buttons a:visited {
+	color: #a2a2a2;
+	text-decoration: none;
+	background-color: none;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.header-buttons a:hover {
+	color: #a2a2a2;
+	text-decoration: none;
+	background-color: transparent;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.nav-buttons a:link, .nav-buttons a:visited {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.nav-buttons a:hover {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+}
+
+.nav-button-home a:link, .nav-buttons a:visited {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+}
+
+.tabs-nav-home {
+	margin: 0 auto; 
+	line-height: 45px;
+}
+
+header {
+	background-color: #f8f8f8;
+	padding: 20px 10px;
+	color: #a2a2a2;
+	overflow: auto;
+}
+
+header a {
+	color: #a2a2a2;
+}
+
+nav {
+	background-color: white;
+	font-weight: bold;
+	padding: 20px 10px;
+	overflow: auto;
+}
+
+nav a {
+	color: black;
+}
+
+main {
+	background: url(Tapping_Phone.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	height: 812px;
+}
+
+.call-to-action {
+	text-align: center;
+	padding-top: 100px;
+	font-size: 35px;
+	color: white;
+}
+
+/*.shop-now a:link, .nav-buttons a:visited {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-style: solid;
+	border-color: black;
+}
+
+.shop-now a:hover {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-style: solid;
+	border-color: black;
+}*/
+
+header form {
+	float: right;
+	margin-right:10px;
+}
+
+li {
+	float: right;
+	list-style: none;
+	margin-right: 10px;
+}
+
+.number {
+	float: left;
+	margin-left:30px;
+	width: 20%;
+}
+
+.logo {
+	background: url(logo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	margin-left:30px;
+	width: 306px;
+	height: 43px;
+}
+
+.tabs-header {
+	float: right;
+	margin-right:30px;
+	box-sizing: border-box;
+	position: relative;
+	list-style: none;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.tabs-nav {
+	float: right;
+	margin-right:10px;
+	box-sizing: border-box;
+	position: relative;
+	list-style: none;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.nav-buttons {
+	height: 50px;
+	display: block;
+	font-size: 16px;
+	line-height: 45px;
+	text-transform: uppercase;
+	position: relative;
+	font-weight: bold;
+	letter-spacing: .6px;
+	border: 2px solid #fff;
+	padding: 0 5px;
+	color: #3b3442;
+}
+
+nav {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+article {
+	padding-left: 30px;
+	/*margin-left: 5px;*/
+}
+
+.featured {
+	margin-top: 150px;
+	text-align: center;
+}
+
+.main-image {
+	width:100%;
+	margin-top: 20px;
+}
+
+.col-3 {
+	float: left;
+	width: 33%;
+	border: 5px white;
+	box-sizing: border-box;
+	position: relative;
+	left: 20px;
+	top: 300px;
+	z-index: 1;
+}
+
+.col-a {
+	background: url(Showcase_headphone.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	height: 236px;
+	width: 371;
+}
+
+.col-b {
+	background: url(Showcase_coat.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	height: 236px;
+	width: 371;
+}
+
+.col-c {
+	background: url(Showcase_camera.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	height: 236px;
+	width: 371;
+}
+
+.col-4 {
+	width: 10%;
+	float: left;
+	border: 5px white;
+	box-sizing: border-box;
+}
+
+.featured-products {
+	overflow: auto;
+}
+
+.product-image {
+	width: 270px;
+	height: 335px;
+	margin: 0 auto;
+}
+
+.product-container {
+		float: left;
+		margin: 0 auto;
+		width: 25%;
+		/*margin-top: 50px;*/
+		border: 5px white;
+		box-sizing: border-box;
+		position: relative;
+		text-align: center;
+}
+
+.product-description {
+	height: 100px;
+	/*width: 100%;*/
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.product-description p  {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.prod-1 {
+	background: url(Headphones.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.prod-2 {
+	background: url(Jacket.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.prod-3 {
+	background: url(Sunglasses.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.prod-4 {
+	background: url(Avionics.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.prod-5 {
+	background: url(Avidyne.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.prod-6 {
+	background: url(Polarized_Sunglasses.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.prod-7 {
+	background: url(Headset.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.prod-8 {
+	background: url(GPS.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+	.container {
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 75%;
+	}
+}
